@@ -18,19 +18,13 @@ namespace ProEventos.API.Controllers
                 EventoID = 1,
                 Tema = "Angular e .NET",
                 Local = "BH",
-                DataEvento = DateTime.Now.AddDays(2).ToString(),
-                QntPessoas = 0,
-                Lote = "null",
-                ImagemURL = "null",       
+                DataEvento = DateTime.Now.AddDays(2).ToString()        
                 },
                 new Evento(){    
                 EventoID = 2,
                 Tema = "Angular 2",
                 Local = "BH 2.0",
-                DataEvento = DateTime.Now.AddDays(2).ToString(),
-                QntPessoas = 0,
-                Lote = "null",
-                ImagemURL = "null",
+                DataEvento = DateTime.Now.AddDays(2).ToString()  
             }  
                    
         };
